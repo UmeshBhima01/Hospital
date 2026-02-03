@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Assets/CSS/Bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <title>Hospital</title>
+</head>
+
+<body>
+  <!-- section one start here  -->
+  <section class="section-one">
+
+    <nav class="navbar navbar-expand-lg head-bg fixed-top">
+      <div class="container nav-main container">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4 menu py-1">
+            <li class="nav-item ">
+              <a class="nav-link active text-white hover-main text-center" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white hover-main text-center" aria-current="page" href="About.html">ABOUT
+                US</a>
+            </li>
+           <li class="dropdown">
+                         <a class="dropdown-toggle bg-none nav-link active text-white hover-main text-center" type="button" data-bs-toggle="dropdown" aria-expanded="false" href="Pages.html">
+                           PAGES
+                         </a>
+                            <ul class="dropdown-menu border-4">
+                               <li>
+                                    <a class="dropdown-item ri-user-heart-line text-dark fs-5 bg-none active hover-pages"  href="#">
+                                        About Doctors
+                                    </a>
+                                </li>
+                               <li>
+                                    <a class="dropdown-item ri-calendar-check-line text-dark fs-5 bg-none active hover-pages" href="#">
+                                        Appointments
+                                    </a>
+                                </li>
+                               <li>
+                                    <a class="dropdown-item ri-hospital-line text-dark fs-5 bg-none active hover-pages" href="#"> 
+                                     Departments
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item ri-stethoscope-line text-dark fs-5 bg-none active hover-pages" href="#">
+                                         Services Details
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item ri-chat-quote-line text-dark fs-5 bg-none active hover-pages" href="#">
+                                     Testimonials
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item ri-question-answer-line text-dark fs-5 bg-none active hover-pages" href="#">
+                                         FAQ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item ri-image-line text-dark fs-5 bg-none active hover-pages" href="#">
+                                         Gallery
+                                    </a>
+                                </li>
+                                 <li>
+                                    <a class="dropdown-item ri-shield-check-line text-dark fs-5 bg-none active hover-pages" href="#">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                          </li>
+             <li class="nav-item">
+              <a class="nav-link active text-white hover-main text-center" aria-current="page" href="Services.html">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white hover-main text-center" aria-current="page" href="Timetaable.html">TIMETABLE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white hover-main text-center" aria-current="page" href="Contact.html">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white hover-main text-center" aria-current="page" href="Blog.html">BLOG</a>
+            </li>
+          </ul>
+          <div class="header-icons text-center">
+            <i class="ri-facebook-fill text-white fs-4 hover-card-icon"></i>
+            <i class="ri-twitter-x-line text-white fs-4 hover-card-icon"></i>
+            <i class="ri-youtube-line text-white fs-4 hover-card-icon"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- slider 1 -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./Assets/IMAGE/SLIDER IMG1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-4 hover-card-btn">Caring Healthcare Professional</h5>
+            <p class="hover-card-btn">A doctor in white coat holding clipboard cares for patients</p>
+          </div>
+        </div>
+        <!-- slider 2 -->
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./Assets/IMAGE/SLIDER IMG2.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-4 hover-card-btn">Medical Diagnosis and Analysis</h5>
+            <p class="hover-card-btn">Scientist examines samples under microscope in modern laboratory setting</p>
+          </div>
+        </div>
+        <!-- slider 3 -->
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="./Assets/IMAGE/SLIDER IMG3.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-4 hover-card-btn">Scientific Research and Innovation</h5>
+            <p class="hover-card-btn">Doctor reviews X-ray scan while wearing white coat and stethoscope.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- section two what make us start here -->
+  <section class="section-two container-fluid">
+    <div class="container d-flex justify-content-center py-lg-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-4">
+        </div>
+        <div class="col-lg-8 col-12 py-md-3 px-md-5 flex-wrap make-page">
+          <div class="what-make">
+            <h4 class="text-start text-center fw-bold fs-1 hover-main"> What Makes Us Different</h4>
+            <p class="text-start  fw-bold">On the other hand, we denounce with righteous indignation and
+              dislike men who are so beguiled and demoralized by the charms of the moment.</p>
+          </div>
+
+          <div class="parent-icon">
+            <!-- icon Row 1 -->
+            <div class="icon-content d-flex flex-wrap ">
+              <div class="icon-row1 align-items-center justify-content-evenly">
+                <i class="ri-user-add-line hover-card-btn"></i>
+                <p class=" fw-bold">FREE CONSULTATION</p>
+              </div>
+              <div class="icon-row1 align-items-center justify-content-evenly">
+                <i class="ri-wallet-3-fill hover-card-btn"></i>
+                <p class=" fw-bold">AFFORDABLE PRICES</p>
+              </div>
+            </div>
+            <!-- icon Row 2 -->
+            <div class="icon-content d-flex flex-wrap ">
+              <div class="icon-row1 align-items-center justify-content-evenly">
+                <i class="ri-dossier-fill hover-card-btn"></i>
+                <p class="fw-bold">QUALIFIED DOCTORS</p>
+              </div>
+              <div class="icon-row1 align-items-center justify-content-evenly">
+                <i class="ri-computer-line hover-card-btn"></i>
+                <p class="fw-bold">PROFESSIONAL STAFF</p>
+              </div>
+            </div>
+            <!-- icon Row 3 -->
+            <div class="icon-content d-flex flex-wrap">
+              <div class="icon-row1 align-items-center justify-content-evenly">
+                <i class="ri-24-hours-fill hover-card-btn"></i>
+                <p class="fw-bold">FREE CONSULTATION</p>
+              </div>
+              <div class="icon-row1 align-items-center justify-content-evenly">
+                <i class="ri-thumb-up-fill hover-card-btn"></i>
+                <p class="fw-bold">5000 HAPPY CLIENTS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section three Our Medical Services start here -->
+  <section class="section-three ">
+    <div class="container">
+      <div class="text-holder text-center py-lg-4 fw-bold py-md-3">
+        <h3 class="text-white">Our Medical Services</h3>
+        <p class="mx-auto text-white">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+          saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</p>
+      </div>
+    </div>
+
+    <!-- row container -->
+    <div class="container">
+      <div class="container-fluid justify-content-center align-items-center  me-auto">
+        <!-- row icon 1 -->
+        <div class="row justify-content-evenly ">
+          <div class="col-lg-4 text-center ">
+            <i class="ri-heart-pulse-line icon text-danger hover-card-btn"></i>
+            <h5 class="text-white">Cardio Monitoring</h5>
+            <p class="text-white fw-semibold">
+              These cases are perfectly simple and easy to <br class="d-block d-lg-none"> distinguish a free hour when
+              our power
+            </p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <i class="ri-medicine-bottle-line icon text-success hover-card-btn"></i>
+            <h5 class="text-white">Medical Treatment</h5>
+            <p class="text-white fw-semibold">
+              These cases are perfectly simple and easy to <br class="d-block d-lg-none">distinguish a free hour when
+              our power</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <i class="ri-microscope-line icon text-info hover-card-btn"></i>
+            <h5 class="text-white">Emergency Help </h5>
+            <p class="text-white fw-semibold">
+              These cases are perfectly simple and easy to <br class="d-block d-lg-none">distinguish a free hour when
+              our power</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid justify-content-center align-items-center py-3 py-lg-4 py-md-5">
+        <!-- /row icon 2 -->
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-4 text-center">
+            <i class="ri-stethoscope-line icon text-primary hover-card-btn"></i>
+            <h5 class="text-white">Symptom Check</h5>
+            <p class="text-white fw-semibold">
+              These cases are perfectly simple and easy to <br class="d-block d-lg-none"> distinguish a free hour when
+              our power</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <i class="ri-test-tube-line icon text-info hover-card-btn"></i>
+            <h5 class="text-white">Laboratory Test</h5>
+            <p class="text-white fw-semibold">
+              These cases are perfectly simple and easy to<br class="d-block d-lg-none"> distinguish a free hour when
+              our power</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <i class="ri-hand-sanitizer-line icon text-warning hover-card-btn"></i>
+            <h5 class="text-white">General Analysis</h5>
+            <p class="text-white fw-semibold">
+              These cases are perfectly simple and easy to<br class="d-block d-lg-none"> distinguish a free hour when
+              our power</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section four start here -->
+  <section class="section-four">
+    <div class="container py-5 py-lg-5 d-flex">
+      <div class="container">
+
+        <!-- card 1 -->
+        <div class="flex-wrap gap-5 d-flex justify-content-center align-items-center ">
+          <div class="card1 col-lg-6">
+            <div class="card1-content">
+              <h5 class="text-white text-center py-4">BOOKING A VISIT</h5>
+            </div>
+
+            <div class="text-center py-4">
+              <form action="" class="form1">
+                <input type="select" class="mb-3" placeholder="DEPARTMENTS">
+                <input type="name" class="mb-3 text-start" placeholder="FULL NAME">
+                <input type="number" class="mb-3 text-start" placeholder="YOUR PHONE NUMBER">
+                <input type="email" class="mb-3 text-start" placeholder="YOUR EMAIL ADDRESS">
+                <input type="text-area" class="py-4 text-start" placeholder="Your Messege">
+              </form>
+            </div>
+
+            <div class="btni text-center py-4">
+              <a href="">MAKE AN APPOINMENT</a>
+            </div>
+          </div>
+
+          <div class="card2 col-lg-6 align-items-center justify-content-center">
+            <div class="card2-content">
+              <h5 class="text-white text-center py-4">DEPARTMENTS</h5>
+            </div>
+
+            <div class="accordion accordion-flush text-center" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    PRIMARY HEALTH CARE
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is the first item’s accordion body.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    CARDIAC CLINIC
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is the second item’s accordion body.
+                    Let’s imagine this being filled with some actual content.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    GENERAL SURGERY
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    Content for General Surgery
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    REHABILITATION STUDIO
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    Content for Rehabilitation Studio
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="btni2 text-center py-4">
+              <a href="">VIEW FULL LIST</a>
+            </div>
+
+          </div>
+
+          <!-- <div class="card3 col-lg-4">
+            <div class="card3-content">
+
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section five start here -->
+  <section class="section-five our-section">
+    <div class="main-container container  ">
+      <div class="our-heading text-center py-4">
+        <h3>OUR TEAM</h3>
+        <p>The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to
+          secure other greater pleasures, or else he endures pains to avoid worse pains.</p>
+      </div>
+      <div
+        class="card-container container  mb-5 d-flex align-items-center justify-content-center  justify-content-evenly flex-wrap">
+        <div class="col-12 col-md-6 col-lg-3 px-lg-2 d-flex justify-content-center align-items-center mt-4">
+          <div class="card" style="width: 16rem;">
+            <img src="./Assets/IMAGE/our team1.png" class="card-img-top hover-card-image" alt="...">
+            <div class="px-1 doctor-name text-center mt-2">
+              <h4>VICKIE BRYANT</h4>
+              <h6>GENERAL DOCTOR</h6>
+            </div>
+            <div>
+              <p class="under-line"></p>
+            </div>
+            <div class="icons-emergancy px-3 d-flex justify-content-evenly">
+              <span><i class="ri-smartphone-line"></i></span>
+              <span>1(8888008800)</span>
+            </div>
+            <div class="social-icon">
+              <span class="d-flex justify-content-around align-items-center mb-2 ">
+                <i class="ri-facebook-fill hover-card-icon"></i>
+                <i class="ri-linkedin-fill hover-card-icon"></i>
+                <i class="ri-twitter-x-fill hover-card-icon"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 px-lg-2 d-flex justify-content-center align-items-center mt-4">
+          <div class="card" style="width: 16rem;">
+            <img src="./Assets/IMAGE/ourteam2.png" class="card-img-top hover-card-image" alt="...">
+            <div class="px-1 doctor-name text-center mt-2">
+              <h4>GERALDINE GRAHAM</h4>
+              <h6>DENTAL SURGEON</h6>
+            </div>
+            <div>
+              <p class="under-line text-center"></p>
+            </div>
+            <div class="icons-emergancy px-3 d-flex justify-content-evenly">
+              <span><i class="ri-smartphone-line"></i></span>
+              <span>1(8888008800)</span>
+            </div>
+            <div class="social-icon">
+              <span class="d-flex justify-content-around align-items-center mb-2">
+                <i class="ri-facebook-fill hover-card-icon"></i>
+                <i class="ri-linkedin-fill hover-card-icon"></i>
+                <i class="ri-twitter-x-fill hover-card-icon"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 px-lg-2 d-flex justify-content-center align-items-center mt-4">
+          <div class="card" style="width: 16rem;">
+            <img src="./Assets/IMAGE/ourteam3.png" class="card-img-top hover-card-image" alt="...">
+            <div class="px-1 doctor-name text-center mt-2">
+              <h4>VALERIE FARMER</h4>
+              <h6>COSMETIC SURGEON</h6>
+            </div>
+            <div>
+              <p class="under-line"></p>
+            </div>
+            <div class="icons-emergancy px-3 d-flex justify-content-evenly">
+              <span><i class="ri-smartphone-line"></i></span>
+              <span>1(8888008800)</span>
+            </div>
+            <div class="social-icon">
+              <span class="d-flex justify-content-around align-items-center mb-2">
+                <i class="ri-facebook-fill hover-card-icon"></i>
+                <i class="ri-linkedin-fill hover-card-icon"></i>
+                <i class="ri-twitter-x-fill hover-card-icon"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 px-lg-2 d-flex justify-content-center align-items-center mt-4">
+          <div class="card" style="width: 16rem;">
+            <img src="./Assets/IMAGE/ourteam4.png" class="card-img-top hover-card-image" alt="...">
+            <div class="px-1 doctor-name text-center mt-2">
+              <h4>ELOISE STEPHENS</h4>
+              <h6>THERAPY</h6>
+            </div>
+            <div>
+              <p class="under-line"></p>
+            </div>
+            <div class="icons-emergancy px-3 d-flex justify-content-evenly">
+              <span><i class="ri-smartphone-line"></i></span>
+              <span>1(8888008800)</span>
+            </div>
+            <div class="social-icon">
+              <span class="d-flex justify-content-around align-items-center mb-2">
+                <i class="ri-facebook-fill hover-card-icon"></i>
+                <i class="ri-linkedin-fill hover-card-icon"></i>
+                <i class="ri-twitter-x-fill hover-card-icon"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section  Six Start here -->
+  <section class="section-six">
+    <div class="container-fluid">
+      <div class="pt-5 container ">
+        <h4 class="fw-bold">Latest News & Our Blog</h4>
+        <p class="fw-bold">Sed doming virtute honestatis at, graece tamquam docendi eum an, alterum reformidans est ei
+          nec aliquando
+          voluptatum an, eu quidam civibus qui.</p>
+      </div>
+      <div class="card-lt gap-3 d-flex align-items-center container flex-wrap justify-content-center">
+        <div class="card mb-4" style="width: 14rem;">
+          <img src="./Assets/IMAGE/LSIMG1.png" class="card-img-top hover-card-image" alt="...">
+          <div>
+            <h6 class="text-center fw-bold pt-2">The Earlier You Start, the Better</h6>
+            <p class="Latest-news text-start px-3 six-para">It’s not uncommon for children who have obesity to become
+              overweight. Teaching children healthy
+              ...</p>
+          </div>
+          <div class="btn-read text-center hover-card-btn pb-3">
+            <a href="">READ MORE</a>
+          </div>
+        </div>
+        <div class="card mb-4" style="width: 14rem;">
+          <img src="./Assets/IMAGE/LSIMG2.png" class="card-img-top hover-card-image" alt="...">
+          <div>
+            <h6 class="text-center fw-bold pt-2">Greatly Improves <br> Flexibility</h6>
+            <p class="Latest-news text-start px-3 six-para">With summer in full swing, everyone is out exploring,
+              adventuring, and being active in their ...</p>
+          </div>
+          <div class="btn-read text-center hover-card-btn pb-3">
+            <a href="">READ MORE</a>
+          </div>
+        </div>
+        <div class="card mb-4" style="width: 14rem;">
+          <img src="./Assets/IMAGE/LSIMG3.png" class="card-img-top hover-card-image" alt="...">
+          <div class="">
+            <h6 class="text-center fw-bold pt-2">Reduces the Risk <br> of Injury</h6>
+            <p class="Latest-news text-start six-para px-3">“With the season at its peak, outdoor activities, travel,
+              and maintaining active lifestyles in their ...”</p>
+          </div>
+          <div class="btn-read text-center hover-card-btn pb-3 ">
+            <a href="">READ MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section seven start here -->
+  <section class="section-seven">
+    <div class="container-fluid seven">
+      <div class="row">
+        <div id="testimonialCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner text-center text-white p-5">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <h4 class="mb-3 text-white">What patients say About Valeo</h4>
+              <p class="fst-italic text-white">
+                “The Cancer team at Valeo are nothing short of miracle workers – they helped me overcome my Leukemia in
+                just 6 months.”
+              </p>
+              <small class="text-white">— Christine Blaine, Blood Patient</small>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <h4 class="mb-3 text-white">Trusted Medical Experts</h4>
+              <p class="fst-italic text-white">
+                “Professional staff, modern treatment, and excellent care. Highly recommended.”
+              </p>
+              <small class="text-white">— John Smith</small>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <h4 class="mb-3 text-white">Patient First Approach</h4>
+              <p class="fst-italic text-white">
+                “They treated me like family. Amazing experience throughout my recovery.”
+              </p>
+              <small class="text-white">— Emily Rose</small>
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-evenly flex-wrap bg-white container-fluid my-5">
+      <div>
+        <img src="./Assets/IMAGE/partner-1-logo.png" class="hover-card-btn" alt="">
+      </div>
+      <div>
+        <img src="./Assets/IMAGE/partner-2-logo.png" class="hover-card-btn" alt="">
+      </div>
+      <div>
+        <img src="./Assets/IMAGE/partner-3-logo.png" class="hover-card-btn" alt="">
+      </div>
+      <div>
+        <img src="./Assets/IMAGE/partner-4-logo.png" class="hover-card-btn" alt="">
+      </div>
+      <div>
+        <img src="./Assets/IMAGE/partner-5-logo.png" class="hover-card-btn" alt="">
+      </div>
+      <div>
+        <img src="./Assets/IMAGE/partner-6-logo.png" class="hover-card-btn" alt="">
+      </div>
+    </div>
+
+    <!-- main footer  -->
+
+    <footer class="main-foot">
+      <div class="footer container py-2">
+        <!-- footer 1 -->
+        <div class="footer1 container-fluid d-flex align-items-center pt-3 justify-content-center flex-wrap">
+          <div class="emergency-bar col-lg-4 ">
+            <small class="text-white text-holder2">EMERGENCY CASES</small>
+            <h4 class="text-white contact">+1 (800) 450 7550</h4>
+          </div>
+
+          <div class="footer-logo col-lg-4">
+            <img src="./Assets/IMAGE/logo_alt.png" class="hover-card-btn" alt="">
+          </div>
+          <div class="emergency-bar ps-5 col-lg-4">
+            <small class="text-white text-holder2">ONLINE CONSULTATION</small>
+            <h4 class="text-white contact">DOCTOR@GMAIL.COM</h4>
+          </div>
+        </div>
+
+        <!-- footer 2 -->
+        <div class="footer2 container-fluid py-1">
+          <div class="row text-center text-white justify-content-between align-items-center g-1">
+
+            <div class="col-12 col-md-4">
+              <p class="fw-semibold sign-up mb-0 text-white">
+                NEWSLETTER SIGNUP
+              </p>
+            </div>
+
+            <div class="col-12 col-md-4 mt-5">
+              <p class="fw-semibold mb-2 sign-up text-white">
+                SEARCH ON THE MAP
+              </p>
+              <a href="#" class="text-white d-inline-block get-btn">
+                GET DIRECTIONS ON THE MAP
+              </a>
+            </div>
+
+            <div class="col-12 col-md-4 mt-5">
+              <p class="fw-semibold mb-2 sign-up text-white">
+                MEET OUR DOCTORS
+              </p>
+              <a href="#" class="btn btn-light btn-sm fw-semibold text">
+                DOCTOR TIME TABLE
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="copyright container py-1">
+        <div class="row text-center text-white align-items-center gy-2">
+
+          <div class="col-12 col-md-4">
+            <h6 class="mb-0 text-white text-holder2">© VALEO - MEDICAL CLINIC / HEALTH CENTER ©2026</h6>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="d-flex justify-content-center gap-1">
+              <i class="ri-facebook-fill text-white border border-white mx-2 rounded-5"></i>
+              <i class="ri-twitter-x-line text-white border border-white px-2 rounded-5"></i>
+              <i class="ri-youtube-fill text-white border border-white px-2 rounded-5"></i>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <h6 class="mb-0 text-white text-holder2">Developed by Umesh</h6>
+          </div>
+
+        </div>
+      </div>
+
+    </footer>
+  </section>
+
+  <script src="./Assets/JS/Bootstrap.js"></script>
+</body>
+</html>

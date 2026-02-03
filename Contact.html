@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/CSS/Bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Hospital</title>
+</head>
+
+<body>
+    <!-- Contact page section one -->
+    <section class="Contact-section-one container-fluid px-0">
+        <nav class="navbar navbar-expand-lg head-bg fixed-top">
+            <div class="container nav-main container">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4 menu py-1">
+                        <li class="nav-item ">
+                            <a class="nav-link active text-white hover-main text-center" aria-current="page"
+                                href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white hover-main text-center" aria-current="page"
+                                href="About.html">ABOUT US</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle bg-none nav-link active text-white hover-main text-center"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false" href="Pages.html">
+                                PAGES
+                            </a>
+                            <ul class="dropdown-menu border-4">
+                                <li>
+                                    <a class="dropdown-item ri-user-heart-line text-dark fs-5 bg-none active hover-pages"
+                                        href="#">
+                                        About Doctors
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item ri-calendar-check-line text-dark fs-5 bg-none active hover-pages"
+                                        href="#">
+                                        Appointments
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item ri-hospital-line text-dark fs-5 bg-none active hover-pages"
+                                        href="#">
+                                        Departments
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item ri-stethoscope-line text-dark fs-5 bg-none active hover-pages"
+                                        href="#">
+                                        Services Details
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item ri-chat-quote-line text-dark fs-5 bg-none active hover-pages"
+                                        href="#">
+                                        Testimonials
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item ri-question-answer-line text-dark fs-5 bg-none active hover-pages"
+                                        href="#">
+                                        FAQ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item ri-image-line text-dark fs-5 bg-none active hover-pages"
+                                        href="#">
+                                        Gallery
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item ri-shield-check-line text-dark fs-5 bg-none active hover-pages"
+                                        href="#">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white hover-main text-center" aria-current="page"
+                                href="Services.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white hover-main text-center" aria-current="page"
+                                href="Timetaable.html">TIMETABLE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white hover-main text-center" aria-current="page"
+                                href="Contact.html">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white hover-main text-center" aria-current="page"
+                                href="Blog.html">BLOG</a>
+                        </li>
+                    </ul>
+                    <div class="header-icons text-center">
+                        <i class="ri-facebook-fill text-white fs-4 hover-card-icon"></i>
+                        <i class="ri-twitter-x-line text-white fs-4 hover-card-icon"></i>
+                        <i class="ri-youtube-line text-white fs-4 hover-card-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- map section in contact page -->
+    <section class="map contain pt-5">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2754.8906410719133!2d81.676037!3d26.7801328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDQ2JzQ4LjUiTiA4McKwNDAnMzMuNyJF!5e1!3m2!1sen!2sin!4v1769964198111!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <!-- section two send message -->
+    <section class="Contact-form ">
+        <div class="flex-wrap  d-flex align-items-center justify-content-evenly">
+            <div class="container col-lg-3">
+                <div class="form-wrapper  align-items-center container justify-content-center ">
+                    <div class="Heading-Contact pt-3 pb-3 container">
+                        <h1>Contact Form</h1>
+                    </div>
+                    <form class="contact-form">
+
+                        <input type="text" placeholder="Name" maxlength="30"
+                            oninput="this.value=this.value.replace(/[^a-zA-Z ]/g,'')">
+
+                        <input type="text" placeholder="Phone No." minlength="10" maxlength="16"
+                            oninput="this.value=this.value.replace(/[^0-9]/g,'')">
+
+                        <input type="text" placeholder="Subject" maxlength="100"
+                            oninput="this.value=this.value.replace(/[^a-zA-Z ]/g,'')">
+
+                        <textarea placeholder="Send Your Message" maxlength="2000"></textarea>
+
+                        <div class="btn-center">
+                            <button type="submit">Submit</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="Contact-info form-wrapper container ">
+                <div>
+                    <h1 class="pb-3">Contact Info</h1>
+                    <p class="pb-3"><i><b>We’re here to help you. Reach out to us anytime for appointments or inquiries.</b></i></p>
+                </div>
+                <div>
+                    <div class="d-flex contact-icon">
+                       <b>
+                         <span class="ri-map-pin-2-line">Address:</span>
+                        <a href="">
+                            123 Ayodhya Lucknow Road,Lucknow, India
+                        </a>
+                       </b>
+                    </div>
+
+                    <div class="d-flex contact-icon">
+                    <b>
+                         <span class="ri-customer-service-2-line">Phone:</span>
+                        <a href="">
+                            +91 9876543210
+                        </a>
+                    </b>
+                    </div>
+
+                    <div class="d-flex contact-icon">
+                       <b>
+                         <span class="ri-mail-fill
+
+
+                        ">Email:</span>
+                        <a href="">
+                            info@yourhospital.com
+                        </a>
+                       </b>
+                    </div>
+
+                    <div class="d-flex contact-icon">
+                       <b>
+                         <span class="ri-timer-line">
+                            Working Hour: 
+                        </span>
+                        <a href="">
+                            Mon – Sat: 9:00 AM – 7:00 PM
+                        </a>
+                       </b>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- main footer  -->
+    <footer class="main-foot">
+        <div class="footer container py-2">
+            <!-- footer 1 -->
+            <div class="footer1 container-fluid d-flex align-items-center  justify-content-center flex-wrap">
+                <div class="emergency-bar col-lg-4 ">
+                    <small class="text-white text-holder2">EMERGENCY CASES</small>
+                    <h4 class="text-white contact">+1 (800) 450 7550</h4>
+                </div>
+
+                <div class="footer-logo col-lg-4">
+                    <img src="./Assets/IMAGE/logo_alt.png" class="hover-card-btn" alt="">
+                </div>
+                <div class="emergency-bar ps-5 col-lg-4">
+                    <small class="text-white text-holder2">ONLINE CONSULTATION</small>
+                    <h4 class="text-white contact">DOCTOR@GMAIL.COM</h4>
+                </div>
+            </div>
+
+            <!-- footer 2 -->
+            <div class="footer2 container-fluid py-1">
+                <div class="row text-center text-white justify-content-between align-items-center g-1">
+
+                    <div class="col-12 col-md-4">
+                        <p class="fw-semibold sign-up mb-0 text-white">
+                            NEWSLETTER SIGNUP
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-md-4 mt-5">
+                        <p class="fw-semibold mb-2 sign-up text-white">
+                            SEARCH ON THE MAP
+                        </p>
+                        <a href="#" class="text-white d-inline-block get-btn">
+                            GET DIRECTIONS ON THE MAP
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-4 mt-5">
+                        <p class="fw-semibold mb-2 sign-up text-white">
+                            MEET OUR DOCTORS
+                        </p>
+                        <a href="#" class="btn btn-light btn-sm fw-semibold text">
+                            DOCTOR TIME TABLE
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="copyright container py-1">
+            <div class="row text-center text-white align-items-center gy-2">
+
+                <div class="col-12 col-md-4">
+                    <h6 class="mb-0 text-white text-holder2">© VALEO - MEDICAL CLINIC / HEALTH CENTER ©2026</h6>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="d-flex justify-content-center gap-1">
+                        <i class="ri-facebook-fill text-white border border-white mx-2 rounded-5"></i>
+                        <i class="ri-twitter-x-line text-white border border-white px-2 rounded-5"></i>
+                        <i class="ri-youtube-fill text-white border border-white px-2 rounded-5"></i>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <h6 class="mb-0 text-white text-holder2">Developed by Umesh</h6>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="./Assets/JS/Bootstrap.js"></script>
+</body>
+
+</html>
